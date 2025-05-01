@@ -1,0 +1,977 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.Parent {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+header {
+    z-index: 999;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.child {
+    display: flex;
+    gap: 50px;
+    color: #002f34;
+    align-items: center;
+
+}
+
+.olx-logo {
+    margin-left: 110px;
+    margin-top: 20px;
+
+}
+
+
+.Motors {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.Motor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Motor:hover {
+
+    color: #27a4e5;
+}
+
+.Motor-cycle {
+    background-color: #e1e6e7;
+    width: 35px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.property {
+    margin-top: 18px;
+}
+
+.properties {
+    display: flex;
+    gap: 17px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+.properties span {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.properties:hover {
+    color: #27a4e5;
+}
+
+.building {
+    background-color: #e1e6e7;
+    width: 35px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+.input-box {
+    display: flex;
+    align-items: center;
+    max-width: max-content;
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 40px;
+    gap: 12px;
+    top: 70px;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #002f34;
+    margin-right: 4px;
+
+}
+
+.Pakistan {
+    color: #002f34;
+    background: none;
+}
+
+
+.Main-input {
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #002f34;
+}
+
+.Second-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Main-input input {
+    border: none;
+    outline: none;
+    color: #002f34;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Main-input-two {
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin-top: 18px;
+    height: 40px;
+}
+
+.placeholder {
+    width: 300px;
+    font-size: 15px;
+    background: none;
+}
+
+.input-1 input {
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    margin-left: 55px;
+    background-color: #002f34;
+    color: white;
+}
+
+.search {
+    color: white;
+}
+
+.login {
+    color: #002f34;
+    font-size: 20px;
+    border-bottom: 2px solid #002f34;
+    margin-top: 12px;
+    margin-left: 9px;
+}
+
+.login:hover {
+    border: none;
+}
+
+
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+.btn {
+    margin-top: 10px;
+    border: 5px solid #27a4e5;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+.btn button {
+    border: none;
+    font-size: 12px;
+    color: #002f34;
+    background: none;
+}
+
+.btn:hover {
+    border: 5px solid #002f34;
+}
+
+
+
+.olx-button:hover {
+    background-color: #002f34;
+    color: white;
+}
+
+
+.main-list {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.main-list span {
+    margin-left: 10px;
+    display: flex;
+}
+
+
+.list {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #002f34;
+    font-weight: 700;
+}
+
+.list-item ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    font-size: 17px;
+    color: #002f34;
+}
+
+
+.list-item ul li:hover {
+    color: #27a4e5;
+}
+
+.banner {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.banner-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.All-Categories {
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #002f34;
+}
+
+.All-Categories-card {
+    display: flex;
+    margin-left: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.Categories-p {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: large;
+    color: #2b363d;
+    width: 80px;
+    overflow: hidden;
+}
+
+
+
+
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.cards {
+    margin-top: 100px;
+    width: 250px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    height: 320px;
+    border-radius: 5px;
+    padding: 0px;
+
+}
+
+.google-pixel-6a {
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    height: 180px;
+}
+
+
+
+.rupees {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 20px;
+}
+
+
+.rupees p {
+    color: #002f34;
+    font-weight: bolder;
+}
+
+.paragraph {
+    color: #002f34;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.opacity {
+    font-size: 13px;
+    color: #002f34;
+    margin-left: 10px;
+    opacity: 3;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8faf9;
+    align-items: center;
+}
+
+.center {
+    margin-right: 70px;
+}
+
+.center h2 {
+    color: #002f34;
+}
+
+.center p {
+    color: #002f34;
+
+}
+
+
+.last {
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+
+.last p {
+    color: #002f34;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+
+
+.last-list {
+    flex-direction: row;
+    display: flex;
+    background-color: #ebeeef;
+    align-items: center;
+    gap: 70px;
+    padding: 0px;
+}
+
+.last-list p {
+    color: #002f34;
+    font-weight: 600;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.last-list ul li {
+    list-style-type: none;
+    color: #002f34;
+    padding: 0px;
+}
+
+.follow-us-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.follow-us-section,
+.follow-us {
+    margin-bottom: 15px;
+}
+
+.icon-image {
+    display: flex;
+}
+
+footer {
+    background-color: #002f34;
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+
+}
+
+.text {
+    display: flex;
+    margin-right: 80px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+
+/* موبائل اسکرینز (600px تک) */
+@media (max-width: 600px) {
+
+    
+
+header {
+    z-index: 999;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+    body {
+   font-family: 'Roboto', sans-serif;
+   margin: 0px;
+   padding: 0px;
+    }
+
+
+
+    .olx-logo {
+        margin-left: 15px;
+        margin-top: 20px;
+
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        height: 10%;
+        color: blue;
+        margin-right: 40px;
+        position: relative;
+        right: 110px;
+
+    }
+
+    .Pakistan {
+        color: #002f34;
+        background: none;
+    }
+
+
+    .Main-input {
+        max-width: max-content;
+        display: flex;
+        align-items: center;
+        color: #002f34;
+    }
+
+
+
+
+    .child {
+        display: flex;
+        gap: 30px;
+        color: #002f34;
+        align-items: center;
+
+
+    }
+
+    .input-box {
+        display: flex;
+        align-items: center;
+        margin-right: 60%;
+        width: 100%;
+        border: none;
+        border-radius: 2px;
+        height: 40px;
+        margin-top: 20px;
+        gap: 5px;
+    }
+
+
+
+    .Second-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 500px;
+
+
+    }
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-right:55% ;
+    }
+
+    .login {
+        color: #002f34;
+        font-size: 20px;
+        border-bottom: 2px solid #002f34;
+        margin-top: 12px;
+        margin-left: 9px;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .btn {
+        margin-top: 10px;
+        border: 5px solid #002f34;
+        width: 100px;
+        height: 30px;
+        padding-top: 5px;
+        border-radius: 25px;
+        text-align: center;
+        display: flex;
+
+    }
+
+
+    .Main-input-two {
+        border: 1px solid gray;
+        display: flex;
+        align-items: center;
+        width: 84%;
+        margin-top: 18px;
+        margin-right: 40px;
+        height: 40px;
+    }
+
+
+    .search-icon {
+        display: flex;
+        background-color: transparent;
+    }
+
+    .search {
+        background-color: transparent;
+    }
+
+
+
+    .banner {
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .banner-two{
+        width: 100px;
+    }
+
+
+
+
+
+    .span-1 {
+        display: none;
+    }
+
+    .mobiles {
+        width: 100px;
+        height: 0px;
+
+
+    }
+
+    .mobile {
+        margin-right: 80px;
+        width: 50px;
+        height: 50px;
+        padding: 0px;
+
+    }
+
+    .All-Categories-card {
+        display: flex;
+        margin-left: 10px;
+        flex-wrap: wrap;
+        padding: 0px;
+        gap: 0px;
+
+    }
+
+    .Categories-p {
+        padding: 0px;
+        font-weight: 600;
+        font-size: 10px;
+        color: #2b363d;
+        margin-right: 100px;
+        margin-top: 5px;
+        width: 60px;
+        overflow: hidden;
+
+
+    }
+
+    .vehicles {
+
+        width: 100px;
+    }
+
+    .vehicle {
+        width: 50px;
+        height: 50px;
+        padding: 0px;
+    }
+
+    .houses {
+        width: 100px;
+    }
+
+    .house {
+        width: 50px;
+        height: 50px;
+    }
+
+    .keys {
+        width: 100px;
+    }
+
+    .key {
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .Cameras {
+        width: 100px;
+    }
+
+    .Camera {
+        width: 50px;
+        height: 50px;
+    }
+
+    .bikes {
+        width: 100px;
+    }
+
+    .bike {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Bussinesses {
+        width: 100px;
+    }
+
+    .Bussiness {
+        width: 50px;
+        height: 50px;
+    }
+
+    .services {
+        width: 100px;
+    }
+
+    .service {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Jobs {
+        width: 100px;
+    }
+
+    .job {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Animals {
+        width: 100px;
+    }
+
+    .Animal {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Fornitures {
+        width: 100px;
+    }
+
+    .Forniture {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Fashions {
+        width: 100px;
+    }
+
+    .Fashion {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .Books {
+        width: 100px;
+    }
+
+    .Book {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Kids {
+        width: 100px;
+    }
+
+    .Kid {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .card {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 500px;
+    }
+
+
+    .google-pixel-6a {
+        width: 210px;
+        border: none;
+        border-radius: 5px;
+        height: 180px;
+
+    }
+
+    .cards {
+        margin-top: 100px;
+        width: 210px;
+        border: 1px solid gray;
+        height: 300px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+
+    .rupees {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 5px;
+        margin-left: 5px;
+        height: 20px;
+    }
+
+
+    .rupees p {
+        color: #002f34;
+        font-weight: bolder;
+    }
+
+    .paragraph {
+        color: #002f34;
+        font-weight: 600;
+        margin-left: 10px;
+        overflow: visible;
+    }
+
+    .opacity {
+        font-size: 13px;
+        color: #002f34;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        opacity: 3;
+    }
+
+
+    .list {
+        display: flex;
+        font-size: 15px;
+        color: #002f34;
+        font-weight: 700;
+        margin-right: 80%;
+    }
+
+
+    .main-list,
+    .span-1 {
+        display: flex;
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+
+    .main-list {
+        display: flex;
+        align-items: center;
+        margin-right: 50%;
+        padding: 0px;
+        width: 20px;
+    }
+
+    .list-item ul {
+        display: flex;
+        gap: 15px;
+        list-style-type: none;
+        font-size: 14px;
+        color: #002f34;
+        padding: 0px;
+    }
+
+
+
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f8faf9;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-right: 80px;
+    }
+
+    .last p {
+        color: #002f34;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+
+    .last {
+        margin-right: 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+
+    }
+
+    .last p {
+        color: #002f34;
+        font-weight: 600;
+        margin-right: 5px;
+    }
+
+
+
+    .last-list {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        background-color: #ebeeef;
+        justify-content: center;
+        margin-right: 0px;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 0px;
+        align-items: center;
+    }
+
+    .last-list p {
+        color: #002f34;
+        font-weight: 600;
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+    }
+
+    .last-list ul li {
+        list-style-type: none;
+        color: #002f34;
+        padding: 0px;
+        margin-right: 100px;
+        justify-content: center;
+    }
+
+    .follow-us-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .follow-us-section,
+    .follow-us {
+        margin-bottom: 15px;
+    }
+
+    .icon-image {
+        display: flex;
+    }
+
+    
+footer {
+    background-color: #002f34;
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+
+}
+
+
+.text {
+    display: flex;
+    margin-right: 180px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+}
