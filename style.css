@@ -33,7 +33,7 @@ header {
 }
 
 .olx-logo {
-    margin-left: 110px;
+    margin-left: 10px;
     margin-top: 20px;
 
 }
@@ -96,7 +96,6 @@ header {
     border-radius: 25px;
 }
 
-
 .input-box {
     display: flex;
     align-items: center;
@@ -106,8 +105,8 @@ header {
     height: 40px;
     gap: 12px;
     top: 70px;
-    margin-top: 20px;
-    margin-left: 130px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .icon {
@@ -152,8 +151,9 @@ header {
     display: flex;
     align-items: center;
     width: 400px;
-    margin-top: 18px;
+    margin-top: 10px;
     height: 40px;
+    justify-content: space-between;
 }
 
 .placeholder {
@@ -162,13 +162,14 @@ header {
     background: none;
 }
 
+
+
 .input-1 input {
     border: none;
     outline: none;
 }
 
 .search-icon {
-    margin-left: 55px;
     background-color: #002f34;
     color: white;
 }
@@ -190,10 +191,11 @@ header {
 }
 
 
-.buttons{
+.buttons {
     display: flex;
     gap: 15px;
 }
+
 .btn {
     margin-top: 10px;
     border: 5px solid #27a4e5;
@@ -227,7 +229,6 @@ header {
 .main-list {
     display: flex;
     align-items: center;
-    margin-left: 100px;
 }
 
 .main-list span {
@@ -271,14 +272,14 @@ header {
 
 
 .All-Categories {
-    margin-top: 30px;
-    margin-left: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
     color: #002f34;
 }
 
 .All-Categories-card {
     display: flex;
-    margin-left: 50px;
+    margin-left: 0px;
     gap: 50px;
     flex-wrap: wrap;
 }
@@ -295,46 +296,39 @@ header {
 
 
 
-
 .card {
     display: flex;
-    justify-content: space-between;
-    margin: 0px;
-    padding: 0px;
-    align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    gap: 10px;
+    max-width: 100%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 18px;
 }
 
 .cards {
-    margin-top: 100px;
-    width: 250px;
-    margin-left: 20px;
+    width: 290px;
     border: 1px solid gray;
-    height: 320px;
+    height: 300px;
     border-radius: 5px;
-    padding: 0px;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .google-pixel-6a {
-    width: 250px;
+    width: 100%;
     border: none;
     border-radius: 5px;
     height: 180px;
 }
 
-
-
 .rupees {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin: 5px;
     height: 20px;
 }
-
 
 .rupees p {
     color: #002f34;
@@ -345,14 +339,19 @@ header {
     color: #002f34;
     font-weight: 600;
     margin-left: 10px;
+    overflow: visible;
 }
 
 .opacity {
     font-size: 13px;
     color: #002f34;
     margin-left: 10px;
-    opacity: 3;
+    display: flex;
+    justify-content: space-between;
+    opacity: 1;
 }
+
+
 
 .footer {
     display: flex;
@@ -362,7 +361,7 @@ header {
 }
 
 .center {
-    margin-right: 70px;
+    margin-right: 0px;
 }
 
 .center h2 {
@@ -380,6 +379,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    align-items: center;
+    padding: 0px;
 
 
 }
@@ -404,7 +405,6 @@ header {
 .last-list p {
     color: #002f34;
     font-weight: 600;
-    margin-left: 30px;
     display: flex;
     align-items: center;
 }
@@ -446,45 +446,67 @@ footer {
 
 .text {
     display: flex;
-    margin-right: 80px;
+    margin-right: 20px;
     font-size: 14px;
     font-weight: 700;
 
 }
 
 
-/* موبائل اسکرینز (600px تک) */
+
 @media (max-width: 600px) {
 
-    
+    .Parent {
+        max-width: 600px;
+        margin: 0 auto;
+    }
 
-header {
-    z-index: 999;
-    position: sticky;
-    top: 0px;
-    margin-bottom: 20px;
-    background-color: white;
-}
+
+
+    header {
+        z-index: 999;
+        position: sticky;
+        top: 0px;
+        margin-bottom: 20px;
+        background-color: white;
+        align-items: center;
+        justify-content: start;
+        max-width: 600px;
+    }
+
     body {
-   font-family: 'Roboto', sans-serif;
-   margin: 0px;
-   padding: 0px;
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        padding: 0px;
     }
 
 
 
     .olx-logo {
-        margin-left: 15px;
-        margin-top: 20px;
+        margin-top: 15px;
 
     }
+
+
+    .input-box {
+        display: flex;
+        border-radius: 2px;
+        align-items: flex-start;
+        height: 40px;
+        gap: 1px;
+        margin-top: 10px;
+        border: none;
+        justify-content: flex-start;
+        margin-right: 0px;
+    }
+
 
     .icon {
         display: flex;
         align-items: center;
         height: 10%;
         color: blue;
-        margin-right: 40px;
+        margin-right: 0px;
         position: relative;
         right: 110px;
 
@@ -497,10 +519,12 @@ header {
 
 
     .Main-input {
-        max-width: max-content;
         display: flex;
+        justify-content: center;
+        max-width: max-content;
         align-items: center;
         color: #002f34;
+        width: 100%;
     }
 
 
@@ -511,20 +535,15 @@ header {
         gap: 30px;
         color: #002f34;
         align-items: center;
-
-
     }
 
-    .input-box {
+
+    .Main-input-two {
+        border: 1px solid gray;
         display: flex;
         align-items: center;
-        margin-right: 60%;
         width: 100%;
-        border: none;
-        border-radius: 2px;
         height: 40px;
-        margin-top: 20px;
-        gap: 5px;
     }
 
 
@@ -533,16 +552,17 @@ header {
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 500px;
+        max-width: 600px;
+        padding: 0px;
 
 
     }
 
-    .buttons{
+    .buttons {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         gap: 20px;
-        margin-right:55% ;
     }
 
     .login {
@@ -550,7 +570,6 @@ header {
         font-size: 20px;
         border-bottom: 2px solid #002f34;
         margin-top: 12px;
-        margin-left: 9px;
         display: flex;
         flex-direction: row;
     }
@@ -591,21 +610,58 @@ header {
 
 
 
+
+
+    .icon-1 {
+        display: none;
+    }
+
+
+    .span-1 {
+        font-size: 15px;
+    }
+
+
+
+    .main-list {
+        display: flex;
+        align-items: center;
+        max-width: 600px;
+    }
+
+
+    .All-Categories-card {
+        display: flex;
+        margin-left: 10px;
+        flex-wrap: wrap;
+        padding: 0px;
+        gap: 0px;
+        max-width: 600px;
+
+    }
+
+    .Categories-p {
+        padding: 0px;
+        font-weight: 600;
+        font-size: 10px;
+        color: #2b363d;
+        margin-right: 100px;
+        margin-top: 5px;
+        width: 70px;
+        overflow: hidden;
+
+
+    }
+
+
+
     .banner {
         margin: 0px 0px 0px 0px;
         width: 100%;
     }
 
-    .banner-two{
-        width: 100px;
-    }
-
-
-
-
-
-    .span-1 {
-        display: none;
+    .banner-two {
+        max-width: 200px;
     }
 
     .mobiles {
@@ -620,28 +676,6 @@ header {
         width: 50px;
         height: 50px;
         padding: 0px;
-
-    }
-
-    .All-Categories-card {
-        display: flex;
-        margin-left: 10px;
-        flex-wrap: wrap;
-        padding: 0px;
-        gap: 0px;
-
-    }
-
-    .Categories-p {
-        padding: 0px;
-        font-weight: 600;
-        font-size: 10px;
-        color: #2b363d;
-        margin-right: 100px;
-        margin-top: 5px;
-        width: 60px;
-        overflow: hidden;
-
 
     }
 
@@ -767,34 +801,38 @@ header {
     }
 
 
+
+
+
     .card {
         display: flex;
-        gap: 5px;
         align-items: center;
         flex-wrap: wrap;
-        width: 500px;
+        max-width: 600px;
+        margin: 0;
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: 195px;
+        height: 320px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
 
 
     .google-pixel-6a {
-        width: 210px;
+        width: 195px;
         border: none;
         border-radius: 5px;
         height: 180px;
 
     }
-
-    .cards {
-        margin-top: 100px;
-        width: 210px;
-        border: 1px solid gray;
-        height: 300px;
-        border-radius: 5px;
-        display: flex;
-        flex-direction: column;
-
-    }
-
 
 
 
@@ -826,25 +864,10 @@ header {
         margin-left: 10px;
         display: flex;
         justify-content: space-between;
-        opacity: 3;
+        opacity: 0.5;
     }
 
 
-    .list {
-        display: flex;
-        font-size: 15px;
-        color: #002f34;
-        font-weight: 700;
-        margin-right: 80%;
-    }
-
-
-    .main-list,
-    .span-1 {
-        display: flex;
-        padding: 0px;
-        margin-left: 10px;
-    }
 
 
     .main-list {
@@ -869,23 +892,34 @@ header {
 
     .footer {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         background-color: #f8faf9;
-        align-items: center;
         flex-direction: column;
+        align-items: flex-start;
+        max-width: 600px;
+        padding: 0px;
+
+    }
+
+
+    .center p {
+        text-align: center;
+    }
+
+
+    .center h2 {
+        text-align: center;
     }
 
     .button {
         display: flex;
         justify-content: center;
         gap: 20px;
-        margin-right: 80px;
     }
 
     .last p {
         color: #002f34;
         font-weight: 600;
-        margin-left: 20px;
     }
 
     .last {
@@ -908,32 +942,40 @@ header {
     .last-list {
         flex-direction: column;
         display: flex;
-        width: 100%;
+        max-width: 600px;
         background-color: #ebeeef;
-        justify-content: center;
-        margin-right: 0px;
-        justify-content: center;
-        padding: 0px;
-        margin-top: 0px;
+        justify-content: first baseline;
         align-items: center;
+        margin-right: 0px;
+        padding: 0px;
     }
 
     .last-list p {
         color: #002f34;
         font-weight: 600;
-        margin-left: 30px;
         display: flex;
         align-items: center;
-        margin-right: 100px;
+        padding: 0px;
+
     }
+
 
     .last-list ul li {
         list-style-type: none;
         color: #002f34;
         padding: 0px;
-        margin-right: 100px;
+        margin-right: 20px;
         justify-content: center;
     }
+
+    .list-item-1,
+    .list-item-2,
+    .list-item-3,
+    .list-item-4 {
+        margin: 0px;
+        padding: 0px;
+    }
+
 
     .follow-us-section {
         display: flex;
@@ -949,29 +991,31 @@ header {
         display: flex;
     }
 
-    
-footer {
-    background-color: #002f34;
-    width: 100%;
-    margin: 0 auto;
-    height: 60px;
-    margin: 0px;
-    padding: 0px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: end;
+
+    footer {
+        background-color: #002f34;
+        width: 100%;
+        margin: 0 auto;
+        height: 60px;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: end;
 
 
-}
+    }
 
 
-.text {
-    display: flex;
-    margin-right: 180px;
-    font-size: 14px;
-    font-weight: 700;
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 700;
+        margin-right: 32px;
 
-}
+    }
 
 }
