@@ -302,21 +302,21 @@ header {
     gap: 10px;
     max-width: 100%;
     margin: auto;
-    justify-content: center;
     margin-bottom: 18px;
+    justify-content: space-between;
 }
 
 .cards {
-    width: 290px;
+    width: 270px;
     border: 1px solid gray;
-    height: 300px;
+    height: 330px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
 }
 
 .google-pixel-6a {
-    width: 100%;
+    width: 270px;
     border: none;
     border-radius: 5px;
     height: 180px;
@@ -457,13 +457,14 @@ footer {
 @media screen and (max-width: 600px) {
 
     .Parent {
-        max-width: 600px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
 
 
     header {
+        outline: 1px solid red;
         z-index: 999;
         position: sticky;
         top: 0px;
@@ -471,13 +472,14 @@ footer {
         background-color: white;
         align-items: center;
         justify-content: start;
-        max-width: 600px;
+        max-width: 100%;
     }
 
     body {
         font-family: 'Roboto', sans-serif;
         margin: 0px;
         padding: 0px;
+        max-width: 100%;
     }
 
 
@@ -626,7 +628,7 @@ footer {
     .main-list {
         display: flex;
         align-items: center;
-        max-width: 600px;
+        max-width: 100%;
     }
 
 
@@ -636,7 +638,7 @@ footer {
         flex-wrap: wrap;
         padding: 0px;
         gap: 0px;
-        max-width: 600px;
+        max-width: 100%;
 
     }
 
@@ -808,10 +810,10 @@ footer {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        max-width: 600px;
+       max-width: 100%;
         padding: 0;
-        margin-left:40px ;
-        justify-content: flex-start;
+        justify-content: center;
+        outline: 1px solid red;
 
     }
 
@@ -871,24 +873,6 @@ footer {
 
 
 
-    .main-list {
-        display: flex;
-        align-items: center;
-        margin-right: 50%;
-        padding: 0px;
-        width: 20px;
-    }
-
-    .list-item ul {
-        display: flex;
-        gap: 15px;
-        list-style-type: none;
-        font-size: 14px;
-        color: #002f34;
-        padding: 0px;
-    }
-
-
 
 
     .footer {
@@ -897,7 +881,7 @@ footer {
         background-color: #f8faf9;
         flex-direction: column;
         align-items: flex-start;
-        max-width: 600px;
+        max-width: 100%;
         padding: 0px;
 
     }
@@ -943,7 +927,7 @@ footer {
     .last-list {
         flex-direction: column;
         display: flex;
-        max-width: 600px;
+        max-width: 100%;
         background-color: #ebeeef;
         justify-content: first baseline;
         align-items: center;
