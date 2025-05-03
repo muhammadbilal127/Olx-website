@@ -457,14 +457,14 @@ footer {
 @media screen and (max-width: 600px) {
 
     .Parent {
-        max-width: 100%;
-        margin: 0 auto;
+        max-width: 74%;
+        margin: 0 auto;;
     }
 
 
 
     header {
-        outline: 1px solid red;
+        
         z-index: 999;
         position: sticky;
         top: 0px;
@@ -472,7 +472,8 @@ footer {
         background-color: white;
         align-items: center;
         justify-content: start;
-        max-width: 100%;
+        max-width: 1000%;
+        background-color: aliceblue;
     }
 
     body {
@@ -543,18 +544,21 @@ footer {
     .Main-input-two {
         border: 1px solid gray;
         display: flex;
-        align-items: center;
-        width: 100%;
-        height: 40px;
+        align-items: flex-start;
+        width: 40%;
+        height: 0px;
     }
 
+    .input-1{
+        width: 40%;
+    }
 
 
     .Second-section {
         display: flex;
         align-items: center;
         flex-direction: column;
-        max-width: 600px;
+        max-width: 100%;
         padding: 0px;
 
 
@@ -594,7 +598,7 @@ footer {
         border: 1px solid gray;
         display: flex;
         align-items: center;
-        width: 84%;
+        width: 80%;
         margin-top: 18px;
         margin-right: 40px;
         height: 40px;
@@ -628,8 +632,19 @@ footer {
     .main-list {
         display: flex;
         align-items: center;
-        max-width: 100%;
+        max-width: 70%;
     }
+    
+.list-item ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    font-size: 17px;
+    color: #002f34;
+    max-width: 67.5;
+
+}
+
 
 
     .All-Categories-card {
@@ -638,7 +653,7 @@ footer {
         flex-wrap: wrap;
         padding: 0px;
         gap: 0px;
-        max-width: 100%;
+        max-width: 70%;
 
     }
 
@@ -651,19 +666,27 @@ footer {
         margin-top: 5px;
         width: 70px;
         overflow: hidden;
-
-
+        
     }
+
+    .All-Categories {
+        margin-top: 20px;
+        margin-left: 10px;
+        color: #002f34;
+        max-width: 20%;
+    }
+    
+    
 
 
 
     .banner {
         margin: 0px 0px 0px 0px;
-        width: 100%;
+        width: 74%;
     }
 
     .banner-two {
-        max-width: 200px;
+        max-width: 74%;
     }
 
     .mobiles {
@@ -810,17 +833,18 @@ footer {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-       max-width: 100%;
+       max-width: 60%;
+       margin-right: 25%;
         padding: 0;
         justify-content: center;
-        outline: 1px solid red;
+
 
     }
 
     .cards {
         display: flex;
         flex-direction: column;
-        width: 195px;
+        width: 300px;
         height: 320px;
         border: 1px solid black;
         border-radius: 5px;
@@ -830,7 +854,7 @@ footer {
 
 
     .google-pixel-6a {
-        width: 195px;
+        width: 300px;
         border: none;
         border-radius: 5px;
         height: 180px;
@@ -881,9 +905,8 @@ footer {
         background-color: #f8faf9;
         flex-direction: column;
         align-items: flex-start;
-        max-width: 100%;
+        max-width: 70%;
         padding: 0px;
-
     }
 
 
@@ -927,7 +950,7 @@ footer {
     .last-list {
         flex-direction: column;
         display: flex;
-        max-width: 100%;
+        max-width: 70%;
         background-color: #ebeeef;
         justify-content: first baseline;
         align-items: center;
@@ -979,7 +1002,7 @@ footer {
 
     footer {
         background-color: #002f34;
-        width: 100%;
+        width: 70%;
         margin: 0 auto;
         height: 60px;
         margin: 0px;
