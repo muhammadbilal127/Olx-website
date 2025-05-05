@@ -582,7 +582,7 @@ footer {
 
     .btn {
         margin-top: 10px;
-        border: 5px solid #002f34;
+        border:5px solid brown;
         width: 100px;
         height: 30px;
         padding-top: 5px;
@@ -591,6 +591,10 @@ footer {
         display: flex;
         text-align: center;
         padding-left: 10px;
+    }
+    .btn img{
+
+ padding-bottom: 10px;
     }
  .Main-input-two{
     width: 90%;
